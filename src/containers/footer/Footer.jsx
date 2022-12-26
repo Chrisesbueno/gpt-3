@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
       <div className="footer__resquest">
         <h1 className='gradientText'>Do you want to step in to the future before others</h1>
-        <a href="#">Request Early Access</a>
+        <a>Request Early Access</a>
       </div>
       <div className="footer__contact">
         <div className="footer__contact-gpt3">

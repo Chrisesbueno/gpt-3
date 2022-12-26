@@ -13,7 +13,7 @@ const Article = ({img, date, title}) => {
           <h2> {title} </h2>
         </div>
         <div className="article__info-link">
-          <a href="#">Read Full Article</a>
+          <a>Read Full Article</a>
         </div>
       </div>
     </div>
