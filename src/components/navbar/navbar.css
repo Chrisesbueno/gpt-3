@@ -1,0 +1,134 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.navbar__logo img{
+    margin-top: 0.5rem;
+    width: 62px;
+    height: 16px;
+}
+.navbar__cta-login, .navbar__links-container {
+    display: none;
+}
+.navbar__cta-menu {
+    color: white;
+    font-size: 32px;
+    position: relative;
+}
+.navbar__cta-menu__container  {
+    position: absolute;
+    width: 180px;
+    background-color: var(--color-blog);
+    text-align: end;
+    right: 0;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.navbar__cta-menu__container a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.7rem;
+    padding-bottom: 5px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    transition: all 0.15s ease-in;
+}
+.navbar__cta-menu__container a:hover {
+    color: var(--color-element);
+}
+.navbar__login {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__login a{
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.navbar__login-sign-up:hover {
+    background-color: white;
+    color: var(--color-element);
+}
+
+.navbar__login-sign-up {
+    margin-top: 0.5rem;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: var(--color-element);
+    border-radius: 5px;
+}
+.navbar__links-container a{
+    margin-left: 2.2rem;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 500px;
+}
+.navbar__links-container a:hover, .navbar__cta-login a:hover {
+    color: var(--color-element);
+    transition: all 0.15s ease-in;
+}
+.navbar__links {
+    display: flex;
+    align-items: center;
+}
+.navbar__cta-login {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.navbar__cta-login a {
+    color: white;
+    text-decoration: none;
+}
+.navbar__cta-login__sign-up {
+    width: 122px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-element);
+    border-radius: 5px;
+    margin-left: 1rem;
+    transition: all 0.15s ease-in;
+}
+.navbar__cta-login__sign-up:hover {
+    background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        padding: 2rem 3rem;
+    }
+    .navbar__cta-menu {
+        display: none;
+    }
+    .navbar__links a {
+        font-size: 16px; 
+    }
+    .navbar__cta-login, .navbar__links-container {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .navbar {
+        padding: 3rem 5rem;
+    }
+    .navbar__links a {
+        font-size: 18px; 
+    }
+    .navbar__cta-login__sign-up {
+        width: 152px;
+        height: 58px;
+    }
+}

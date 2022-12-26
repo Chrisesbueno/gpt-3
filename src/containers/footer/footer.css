@@ -1,0 +1,112 @@
+.footer {
+    padding: 0 2rem 2rem;
+    background-color: var(--color-footer);
+}
+.footer__resquest {
+    padding: 4rem 2rem 6rem;
+    text-align: center;
+}
+.footer__resquest h1 {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    margin-bottom: 3rem;
+}
+.footer__resquest a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1rem;
+    transition: all 0.15s ease-in;
+}
+.footer__resquest a:hover {
+    color: var(--color-subtext);
+    border: 1px solid var(--color-subtext);
+}
+.footer__contact {
+    color: white;
+}
+.footer__contact a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.15s ease-in;
+}
+.footer__contact a:hover {
+    color: #FF8A71;
+}
+.footer__contact p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.footer__contact-gpt3, .footer__contact-links, .footer__contact-company, .footer__contact-get {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3rem;
+
+}
+.footer__contact-gpt3 img {
+    width: 118px;
+    height: 30px;
+}
+.credits {
+    color: white;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .footer__resquest {
+        padding: 6rem 2rem 8rem;
+    }
+    .footer__resquest h1 {
+        font-size: 48px;
+        line-height: 45px;
+        margin-bottom: 4rem;
+    }    
+}
+@media screen and (min-width: 1024px) {
+    .footer {
+        padding: 0 3rem 2rem;
+        background-color: var(--color-footer);
+    }
+    .footer__contact {
+        display: flex;
+        justify-content: space-between;
+        gap: 5rem;
+        margin-bottom: 5rem;
+    }
+    .footer__contact-gpt3, .footer__contact-links, .footer__contact-company, .footer__contact-get {
+        margin-bottom: 0rem;
+    
+    }
+    .footer__contact-gpt3 img {
+        margin-top: 0.5rem;
+    }
+    .footer__resquest {
+        padding: 6rem 2rem 8rem;
+    }
+    .footer__resquest h1 {
+        font-size: 58px;
+        line-height: 65px;
+        margin-bottom: 4rem;
+    }   
+}
+@media screen and (min-width: 1440px) {
+    .footer {
+        padding: 0 4rem 2rem;
+        background-color: var(--color-footer);
+    }
+    .footer__contact {
+        gap: 8rem;
+    }
+    .footer__contact-gpt3 img {
+        margin-top: 0.3rem;
+    }
+    .footer__resquest {
+        padding: 6rem 2rem 8rem;
+    }
+    .footer__resquest h1 {
+        font-size: 72px;
+        line-height: 75px;
+    }   
+}
