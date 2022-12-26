@@ -11,7 +11,7 @@ const Register = () => {
                 <h1>Register today & start exploring the endless possiblities.</h1>
             </div>
             <div className="register__content-button">
-                <a>Get Started</a>
+                <a href='/'>Get Started</a>
             </div>
         </div>
     </div>

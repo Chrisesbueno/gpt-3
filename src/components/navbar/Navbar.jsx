@@ -30,8 +30,8 @@ const Navbar = () => {
       </div>
       <div className="navbar__cta">
         <div className="navbar__cta-login">
-          <a className="navbar__cta-login__sign-in">Sign in</a>
-          <a className="navbar__cta-login__sign-up">Sign up</a>
+          <a href='/' className="navbar__cta-login__sign-in">Sign in</a>
+          <a href='/' className="navbar__cta-login__sign-up">Sign up</a>
         </div>
         <div className="navbar__cta-menu">
           {toggle 
@@ -45,8 +45,8 @@ const Navbar = () => {
                 <Menu />
               </div>
               <div className="navbar__login">
-                <a className="navbar__login-sign-in">Sign in</a>
-                <a className="navbar__login-sign-up">Sign up</a>
+                <a href='/' className="navbar__login-sign-in">Sign in</a>
+                <a href='/' className="navbar__login-sign-up">Sign up</a>
               </div>
             </div>
           ) : (

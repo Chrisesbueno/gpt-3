@@ -3,7 +3,7 @@ import './cta.css'
 
 const CTA = ({color}) => {
   return (
-      <a className='cta' style={{color: color}}>Request Early Access to Get Started</a>
+      <a href='/' className='cta' style={{color: color}}>Request Early Access to Get Started</a>
   )
 }
 

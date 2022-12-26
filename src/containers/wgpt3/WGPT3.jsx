@@ -12,7 +12,7 @@ const WGPT3 = () => {
         </div>
         <div className="wgpt3__section-medium ">
           <h1 className='gradientText'>The possibilities are beyond your imagination</h1>
-          <a>Explore The Library</a>
+          <a href='/'>Explore The Library</a>
         </div>
         <div className="wgpt3__section-foot">
           <Feature title='Chatbots' text='We so opinion friends me message as delight. Whole front do of plate heard oh ought. ' />
